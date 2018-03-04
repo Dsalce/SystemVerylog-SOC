@@ -1,0 +1,12 @@
+Compilar-Simular:
+
+vlog bfm_if.sv definitions.sv top.sv timing_io.v alu.v counter.v instruction_decode.v scratchpad.v instruction_pointer.v i4004.v
+
+vsim work.top +UVM_TESTNAME=test
+
+
+run -all
+
+
+Enlace:
+https://opencores.org/project,mcs-4,Overview

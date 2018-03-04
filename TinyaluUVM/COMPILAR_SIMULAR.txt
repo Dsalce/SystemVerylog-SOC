@@ -1,0 +1,7 @@
+
+vlog bfm_if.sv definitions.sv top.sv tinyalu.sv
+
+
+vsim work.top +UVM_TESTNAME=test
+
+run -all
